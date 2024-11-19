@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <h1>Crie seu convite</h1>
+
+    <div id="container">
+        <div class="event">
+            <img src="./icons/calendary.svg" alt="">
+            <h3> Sobre o evento</h3>
+        </div>
+
+        <div id="form">
+            <div class="input-wrapper">
+                <label>Titulo</label>
+                <input type="text" id="nameEvent" placeholder="Nome do evento">
+            </div>
+
+            <div class="initialEnd">
+                <div class="input-wrapper">
+                    <label>Inicio</label>
+                    <input type="date" id="initial">
+                </div>
+
+                <div class="input-wrapper">
+                    <label>Fim</label>
+                    <input type="date" id="end">
+                </div>
+            </div>
+
+            <div class="input-wrapper">
+                <label>Tipo</label>
+
+                <div class="testando">
+
+                    <div class="teste">
+                        <p>Presencial <input type="checkbox" id="presencial"></p> 
+                    </div>
+    
+                    <div class="teste">
+                        <p>Online <input type="checkbox" id="Online"> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

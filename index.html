@@ -52,26 +52,24 @@
             <div class="input-wrapper">
                 <label>Tipo</label>
 
-                <div class="testando">
+                <div class="option">
 
-                    <div class="teste">
-                        <p>Presencial <input type="checkbox" id="presencial"></p> 
-                    </div>
-    
-                    <div class="teste">
-                        <p>Online <input type="checkbox" id="Online"> </p>
-                    </div>
+                    <select id="typeEvent">
+                        <option value="presencial">Presencial</option>
+                        <option value="online">Online</option>
+                        <option value="semiPresencial">Semi presencial</option>
+                    </select>
                 </div>
             </div>
-
             <div class="input-wrapper">
                 <label>Local</label>
-                <input type="text" id="nameEvent" placeholder="Link do endereço">
+                <input type="text" id="local" placeholder="Link do endereço">
             </div>
+
 
             <div class="inputClass">
                 <label>Descrição</label>
-                <input type="text" id="nameEvent" placeholder="Escreva sobre os detalhes do evento">
+                <input type="text" id="descrition" placeholder="Escreva sobre os detalhes do evento">
             </div>
         </div>
 
@@ -155,8 +153,14 @@
                 </div>
             </div>
             
+            <div class="TextButton">
+                <p>Foto de capa</p>
+                <button id="btn">Selecionar</button>
+            </div>
         </div>
     </div>
+
+   
 
 
 

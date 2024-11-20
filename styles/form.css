@@ -37,26 +37,32 @@
         }
     }
 
-    .testando {
+    .option {
         display: flex;
         gap: .5rem;
         align-items: center;
         font-family: "Roboto", serif;
-        color: var(--input-placehoder);
-
-        .teste {
+        color: var(--input-placehoder); 
+    
+        #typeEvent {    
             background-color: var(--input-bs);
             width: 50%;
             padding: 1rem;
             border-radius: .5rem;
             border: 1px solid var(--input-stroke);
 
-            p{
-                display: flex;
-                justify-content: space-between;
+            select {
+                color: var(--input-placehoder);
+            }
+                
+            option {
+                color: var(--input-placehoder);
             }
         }
     }
 }
+
+
+
 
 

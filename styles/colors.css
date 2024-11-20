@@ -128,12 +128,13 @@
 .card {
     width: 10rem;
     height: 8rem;
-    background-color: var(--input-bs);
+    background-color: var(--input-stroke);
     border-radius: .5rem;   
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
+    cursor: pointer;
     
 
     img {
@@ -143,7 +144,26 @@
 }
 
 .card:hover {
-    border: 1px solid var(--brand-mid);
-    transition: .5s;
-    cursor: pointer;
+    border: 3px solid var(--brand-mid);
 }
+
+
+
+.TextButton {
+    margin-top: 1rem;
+    #btn {
+        background-color: var(--shape-button);
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        color: #fff;
+        margin-top: .5rem;
+        border: 2px solid var(--input-placehoder);
+    }
+}
+
+#btn:focus {
+    border: 2px solid var(--brand-mid);
+}
+

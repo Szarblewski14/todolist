@@ -27,7 +27,7 @@
     <h1>Crie seu convite</h1>
     <div id="container">
         
-        <div id="form">
+        <form id="form">
             <div class="event">
                 <img src="./icons/calendary.svg" alt="">
                 <h2> Sobre o evento</h2>
@@ -52,7 +52,7 @@
             <div class="inputLT">
                 <div class="typeLocal">
                     <label>Tipo</label>
-                   <input type="text" placeholder="Presencial/Online"> 
+                   <input type="text" placeholder="Presencial / Online"> 
                 </div>
                 <div class="typeLocal">
                     <label>Local</label>
@@ -74,18 +74,21 @@
     
                 <div class="inputName">
                     <label>Nome</label>
-                    <input type="text" id="name" placeholder="Nome completo">
+                    <input type="text" class="name required" placeholder="Nome completo" oninput="nameValidate()">
+                    <span class="danger">Seu nome deve ter no minimo 3 digitos</span>
                 </div>
             </div>
     
             <div class="emailName">
                 <div class="inputNameEmail">
                     <label>E-mail</label>
-                    <input type="email" id="email" placeholder="exemplo@gmail.com">
+                    <input type="email" class="email required" placeholder="exemplo@gmail.com" oninput="emailValidate()">
+                    <span class="danger">Digite um e-mail válido</span>
                 </div>
                 <div class="inputNameEmail">
                     <label>Telefone</label>
-                    <input type="number" id="telefone" placeholder="(99) 99999-9999">
+                    <input type="number" class="telefone required" placeholder="(99) 99999-9999" oninput="phoneValidate()">
+                    <span class="danger">Digite um número de telefone válido</span>
                 </div>
             </div>
             <div class="listra"></div>
@@ -107,7 +110,7 @@
     
                 <button class="btnFooter">Gerar convite</button>
             </footer>
-        </div>
+        </form>
 
 
     </div>

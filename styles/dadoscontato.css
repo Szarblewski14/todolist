@@ -36,9 +36,13 @@
 
 .descritionFooter{
     display: flex;
+    align-items: center;
     gap: 1rem;
     margin-top: 1.5rem;
-    align-items: center;
+
+    p{
+        margin-top: .5rem;
+    }
 }
 
 .btnFooter {

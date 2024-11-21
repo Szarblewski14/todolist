@@ -1,5 +1,4 @@
 #container {
-    padding: 2rem 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +51,39 @@
         width: 100%;
     }
    }
+}
+
+@media(max-width: 600px){
+    body {
+        display: flex;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: .9rem;
+    }
+
+    .inputLT{
+        display: flex;
+        flex-direction: column;
+    }
+    .initialEnd{
+        display: flex;
+        flex-direction: column;
+    }
+    .emailName {
+        display: flex;
+        flex-direction: column;
+    }
+    .inputNameEmail{
+        max-width: 100%;
+    }
+    .descritionFooter{
+        font-size: .8rem;
+    }
 }
 
 

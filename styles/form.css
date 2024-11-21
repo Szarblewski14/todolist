@@ -21,50 +21,38 @@
         .input-wrapper{
             display: flex;
             flex-direction: column;
-            gap: .5rem;
             margin-top: 1rem;
         } 
 
         .initialEnd {
             display: flex;
             gap: .5rem;
+            margin-top: 1rem;
             
-            #initial {
-                width: 21.3rem;
+            .inicioFim {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            #dataIE {
                 color: var(--input-placehoder);
             }
-            #end {
-                width: 21.3rem;
-                color: var(--input-placehoder);
-            }
+            
         }
     }
 
-    .option {
-        display: flex;
-        gap: .5rem;
-        align-items: center;
-        font-family: "Roboto", serif;
-        color: var(--input-placehoder); 
+   .inputLT {
+    display: flex;
+    gap: .5rem;
+    margin-top: 1rem;
     
-        #typeEvent {    
-            background-color: var(--input-bs);
-            width: 50%;
-            padding: 1rem;
-            border-radius: .5rem;
-            border: 1px solid var(--input-stroke);
-
-            select {
-                color: var(--input-placehoder);
-            }
-                
-            option {
-                color: var(--input-placehoder);
-            }
-        }
+    .typeLocal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
+   }
 }
-
 
 
 

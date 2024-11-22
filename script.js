@@ -10,6 +10,8 @@ form.addEventListener('submit', (e) => {
     phoneValidate()
 })
 
+
+
 function setError(i){
     campos[i].style.border = '2px solid #e63636'
     spans[i].style.display = 'block'
